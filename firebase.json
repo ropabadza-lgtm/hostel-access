@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "au-hostel-access",
+          "appId": "1:104434100399:android:47661e481db7aff4450c5a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "au-hostel-access",
+          "configurations": {
+            "android": "1:104434100399:android:47661e481db7aff4450c5a",
+            "ios": "1:104434100399:ios:452314743d69b7d2450c5a",
+            "web": "1:104434100399:web:4c031c5968726884450c5a",
+            "windows": "1:104434100399:web:67a6f4c9c22da57c450c5a"
+          }
+        }
+      }
+    }
+  }
+}
